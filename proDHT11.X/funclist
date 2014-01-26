@@ -1,0 +1,14 @@
+_readByte: CODE, 878 0 71
+___awdiv: CODE, 580 0 116
+_bin2bcd: CODE, 949 0 55
+_CheckResponse: CODE, 1004 0 52
+_StartSignal: CODE, 1134 0 27
+___awmod: CODE, 696 0 102
+_main: CODE, 19 0 435
+_initDHT11: CODE, 1161 0 14
+_visuHP7300: CODE, 1100 0 34
+__initialization: CODE, 1175 0 10
+_isr: CODE, 798 0 80
+_mideDHT11: CODE, 454 0 126
+___wmul: CODE, 1056 0 44
+Total: 1166

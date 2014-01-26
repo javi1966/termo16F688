@@ -1,0 +1,29 @@
+[PROJECT]
+Target=C:\DESARROLLOS\termo16F688\main16f688.hex
+Development_Mode=
+Processor_Text=PIC16F688
+ToolSuite=CCS
+Processor=0x6688
+[C:\DESARROLLOS\termo16F688\main16f688]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=C:\DESARROLLOS\termo16F688\main16f688.c
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[Opened Files]
+1=main16f688.c
+2=..\..\Archivos de programa\PICC\devices\16F688.h
+3=DS18B20.C
+4=
+5=
+[Target Data]
+OptionString=-p +FM
+FileList=main16f688.c
+[Units]
+Count=1
+1=main16f688.c (main)

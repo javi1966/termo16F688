@@ -1,0 +1,12 @@
+ÀÄmain
+   ÃÄMAIN  0/150  Ram=2
+   ³  ÃÄ??0??
+   ³  ÃÄ@const60  0/11  Ram=0
+   ³  ÀÄPWM  0/125  Ram=7
+   ³     ÃÄ@MUL1616  (Inline)  Ram=5
+   ³     ÃÄ@DIV1616  (Inline)  Ram=5
+   ³     ÃÄ@delay_us1  0/17  Ram=1
+   ³     ÃÄ@delay_us1  0/17  Ram=1
+   ³     ÃÄ@delay_us1  0/17  Ram=1
+   ³     ÀÄ@delay_us1  0/17  Ram=1
+   ÀÄintTareas  0/10  Ram=0

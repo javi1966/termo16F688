@@ -1,0 +1,60 @@
+
+ROM used: 605 (15%)
+          605 (15%) including unused fragments
+
+          1 Average locations per line
+          4 Average locations per statement
+
+RAM used: 22 (9%) at main() level
+          33 (13%) worst case
+
+Stack used: 4 worst case (out of 7 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  186    73  49  main16f688.c
+  255     0   0  ..\..\Archivos de programa\PICC\devices\16F688.h
+  151    75  51  ds18b20.c
+----- -----
+  592   148 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     20   3   1             @delay_ms1
+0     17   3   1             @delay_us1
+0     29   5   1   106  1.3  initDS18B20
+0     34   6   2   272  4.3  enviaDS18B20
+0     37   6   2   284  4.6  leeDS18B20
+0     56   9   1   226  2.7  leeTempDS18B20
+ Inline        2   928  6.2  @ITOF
+0     11   2   0   209  3.5  intTareas
+0    128  21   8   218  3.4  PWM
+ Inline        5   218  3.4  @MUL1616
+ Inline        5             @DIV1616
+0     19   3   3   120  4.2  bin2bcd
+0     21   3   3   120  4.2  @DIV88
+0     25   4   5   238  3.4  visuHP7300
+0    124  20   4   967  6.0  MAIN
+0     31   5   4   998  6.1  @SFTOI
+
+Program metrics:
+    Functions               13
+    Statements              148
+    Comments                114
+    Volume (V)              7875
+    Difficilty (D)          53.2
+    Effort to implement (E) 419217
+    Time to implement (T)   6 hours, 28 minutes
+    Est Delivered Bugs (B)  2
+    Cyclomatic Complexity   18
+    Maintainability (MI)    48
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-00034    49  0  
+00035-007FF   552  1443  
+00800-00FFF     0  2048  
+
+
+

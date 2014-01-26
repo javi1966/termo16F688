@@ -1,0 +1,113 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+005.5   GRADO
+007     PORTC
+007.4   LE1
+007.5   LE2
+019.6   C1OUT
+020     @SCRATCH
+021     @SCRATCH
+021     _RETURN_
+022     @SCRATCH
+023     @SCRATCH
+024     @SCRATCH
+025     @INTERRUPT_AREA
+026     @INTERRUPT_AREA
+027     @INTERRUPT_AREA
+028     @INTERRUPT_AREA
+029     @INTERRUPT_AREA
+02A     @INTERRUPT_AREA
+02B     @INTERRUPT_AREA
+02C     @INTERRUPT_AREA
+02D     @INTERRUPT_AREA
+02E.0   bInt5seg
+02E.1   bInt100m
+02E.2   bUpDw
+02F     intTareas.iTemp
+030     intTareas.iTemp2
+031     MAIN.iNivel
+032     MAIN.iTemperatura
+033     MAIN.i
+034     visuHP7300.Num
+034-037 @SFTOI.P1
+034     leeTempDS18B20.valor
+034     PWM.iDuty
+034     MAIN.@SCRATCH1
+035     visuHP7300.iPrimerDig
+035-036 @ITOF.P1
+035     enviaDS18B20.dato
+035     leeDS18B20.cnt
+035-036 PWM.lDuty
+035     initDS18B20.@SCRATCH1
+036     enviaDS18B20.cnt
+036     leeDS18B20.dato
+036     bin2bcd.bin
+036     visuHP7300.@SCRATCH1
+037-038 PWM.lY
+037     bin2bcd.bcd
+037     visuHP7300.@SCRATCH2
+038     @DIV88.P1
+038     bin2bcd.@SCRATCH1
+038     visuHP7300.@SCRATCH3
+039-03A @MUL1616.P1
+039     @delay_ms1.P2
+039     @DIV88.P3
+039     PWM.@SCRATCH1
+03A     PWM.@SCRATCH2
+03A     @DIV88.@SCRATCH1
+03B-03C @DIV1616.P1
+03B-03C @MUL1616.P2
+03B     PWM.@SCRATCH3
+03C     @delay_us1.P1
+03D-03E @DIV1616.P1
+03D     @MUL1616.@SCRATCH1
+03F     @DIV1616.@SCRATCH1
+10D-10E @READ_PROGRAM_MEMORY8.P1
+
+ROM Allocation:
+010C  @delay_ms1
+0040  @delay_us1
+0051  initDS18B20
+006E  enviaDS18B20
+0090  leeDS18B20
+00B5  leeTempDS18B20
+00D0  @ITOF
+0035  intTareas
+0161  PWM
+016A  @MUL1616
+0189  @DIV1616
+0135  bin2bcd
+0120  @DIV88
+0148  visuHP7300
+01E1  MAIN
+00ED  @SFTOI
+01E1  @cinit
+
+Project Directory:
+    C:\DESARROLLOS\termo16F688\
+
+Project Files:
+    main16f688.c
+    ..\..\Archivos de programa\PICC\devices\16F688.h
+    ds18b20.c
+
+Units:
+    main16f688.c (main)
+
+Compiler Settings:
+    Processor:      PIC16F688
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      main16f688.err
+    Ext Symbols: main16f688.esym
+    INHX8:       main16f688.hex
+    Symbols:     main16f688.sym
+    List:        main16f688.lst
+    Debug/COFF:  main16f688.cof
+    Project:     main16f688.PJT
+    Call Tree:   main16f688.tre
+    Statistics:  main16f688.sta

@@ -1,0 +1,6 @@
+>>> Warning 206 "main16f688.c" Line 40(1,1): Variable of this data type is never greater than this constant
+>>> Warning 202 "main16f688.c" Line 52(9,11): Variable never used:   lY
+>>> Warning 202 "main16f688.c" Line 77(7,17): Variable never used:   iPrimerDig
+>>> Warning 202 "main16f688.c" Line 113(8,9): Variable never used:   i
+      Memory usage:   ROM=15%      RAM=9% - 13%
+      0 Errors,  4 Warnings.
